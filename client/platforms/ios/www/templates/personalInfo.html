@@ -1,0 +1,40 @@
+<ion-view title="Informaci&oacute;n Personal">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <h1>Informaci&oacute;n Personal</h1>
+    <!-- http://ionicframework.com/html5-input-types/ -->
+    <div>
+    <label class="item item-input">
+       <span class="input-label">Primer Nombre</span>
+       <input ng-model="name1" type="text">
+    </label>
+    <label class="item item-input">
+       <span class="input-label">Segundo Nombre</span>
+       <input ng-model="name2" type="text">
+    </label>
+    <label class="item item-input">
+       <span class="input-label">Primer Apellido</span>
+       <input ng-model="lastName1" type="text">
+    </label>
+    <label class="item item-input">
+       <span class="input-label">Segundo Nombre</span>
+       <input ng-model="lastName2" type="text">
+    </label>
+    <label class="item item-input">
+       <span class="input-label">Email</span>
+        <input type="email">
+    </label>
+<label class="item item-input">
+  <span class="input-label">Tel&eacute;fono</span>
+  <input type="tel">
+</label>
+<label class="item item-input">
+  <span class="input-label">Fecha Nacimiento</span>
+  <input type="date">
+</label>
+
+    </div>
+  </ion-content>
+</ion-view>
